@@ -56,7 +56,7 @@ def compute_totals(
                 "Kosten gesamt (€)": d_cost,
                 "CO2 (g/km)": (d_co2_kg * 1000 / km_total) if km_total else 0,
             },
-            "BEV (BMW i4/ VW ID.7)": {
+            "BEV (BMW i4 / VW ID.7)": {
                 "Energie (kWh/100km)": bev_kwh_per_100,
                 "Energie gesamt (kWh)": bev_kwh_total,
                 "Kosten/100km (€)": bev_cost / factor_nonzero,
