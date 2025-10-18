@@ -144,7 +144,7 @@ def main():
     chart_order = [
         ("Hybrid (BMW 330e)", "Hybrid"),
         ("Diesel (BMW 330d)", "Diesel"),
-        ("BEV (BMW i4/ VW ID.7)", "BEV"),
+        ("BEV (BMW i4 / VW ID.7)", "BEV"),
     ]
 
     cols = st.columns(3)
